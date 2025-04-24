@@ -1,0 +1,12 @@
+public String changeTimeFormat(String strTime) {
+    String[] parts = strTime.split(':');
+    Integer hours = Integer.valueOf(parts[0]);
+    Integer minutes = Integer.valueOf(parts[1]);
+    Decimal time = hours + (Decimal.valueOf(minutes));
+    if(strTime >= 00.00 && strTime <= 11.59){
+        return strTime + ' AM';
+    }
+    else {
+        return strTime + ' PM';
+    }
+}

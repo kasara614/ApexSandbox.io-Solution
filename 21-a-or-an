@@ -1,8 +1,8 @@
 public String aOrAn(String word) {
   if(word.chatAt(0) == a || e || i || o || u){
-      return 'an ' + word; 
+      return "an " + word; 
   }
   else {
-      return 'a ' + word;
+      return "a " + word;
   }
 }

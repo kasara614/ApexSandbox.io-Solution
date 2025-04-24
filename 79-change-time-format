@@ -13,7 +13,7 @@ public String changeTimeFormat(String strTime) {
 
     Integer hours12 = hours24 % 12;
     if(hours12 == 0){
-        return hours12 = 12;
+         hours12 = 12;
     }
 
     String hourStr = String.valueOf(hours12);

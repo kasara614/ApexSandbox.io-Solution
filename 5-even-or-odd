@@ -1,0 +1,9 @@
+public String evenOrOdd(Integer num) {
+    Integer reminder = Math.mod(num, 2);
+    if(reminder == 0){
+        return 'even';
+    }
+    else{
+        return 'odd';
+    }
+}

@@ -1,5 +1,5 @@
 public String aOrAn(String word) {
-  if(word[0] == a,e,i,o,u){
+  if(word.chatAt(0) == a,e,i,o,u){
       return 'an ' + word; 
   }
   else {

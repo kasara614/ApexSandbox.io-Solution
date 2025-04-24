@@ -5,10 +5,10 @@ public String changeTimeFormat(String strTime) {
 
     String period;
     if(hours24 < 12){
-        return period = 'AM'
+        period = 'AM'
     }
     else{
-        return period = 'PM'
+         period = 'PM'
     }
 
     Integer hours12 = hours24 % 12;

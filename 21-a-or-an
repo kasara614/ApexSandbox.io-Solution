@@ -1,5 +1,5 @@
 public String aOrAn(String word) {
-  chat firstLetter = Character.toLowerCase(word.chatAt(0));
+  String firstLetter = word.subString(0, 1);
 
   if(firstLetter == 'a' || firstLetter == 'e' || firstLetter == 'i' ||
      firstLetter == 'o'|| firstLetter == 'u')

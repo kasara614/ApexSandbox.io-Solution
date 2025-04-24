@@ -4,6 +4,6 @@ public String nameFromEmail(String email) {
     String fullName;
     String name = email.split('@');
     fullName = name.split('.');
-    firstName = fullName[0];
-    lastName = fullName[1];
+    firstName = fullName[0].capitalize();
+    lastName = fullName[1]capitalize();
 }

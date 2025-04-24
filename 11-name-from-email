@@ -1,6 +1,4 @@
-public String nameFromEmail(String email) {
-  public String nameFromEmail(String email) {
- 
+public String nameFromEmail(String email) { 
     String[] parts = email.toLowerCase().split('@');
     String[] names = parts[0].split('\\.');
 
@@ -8,6 +6,4 @@ public String nameFromEmail(String email) {
     String lastName = names[1].capitalize();
 
     return firstName + ' ' + lastName;
-}
-
 }

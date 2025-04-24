@@ -1,10 +1,3 @@
 public Boolean isEndWithZero(Integer num){
-     Integer reminder = Math.mod(num);
-
-     if(reminder != 0){
-         return false;
-     }
-     else {
-         return true;
-     }
+     return num % 10 == 0;
 }
